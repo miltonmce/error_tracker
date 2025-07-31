@@ -3,7 +3,7 @@ from django.apps import AppConfig
 
 class ErrorTrackerConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.error_tracker'
+    name = 'error_tracker'
 
     def ready(self):
         # Importa las señales si las añades después
